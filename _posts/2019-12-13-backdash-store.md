@@ -11,7 +11,7 @@ excerpt_separator:  <!--more-->
 Our Web and Mobile Development assignment required us to
 create a storefront with a LAMP stack and no dependencies.
 We decided to develop a store that sells fighting game gear.
-It features a fully functional shop, user system.
+It features a shop, cart, user system, and product manager.
 Backdash fetches all store data from a persistent MySQL database.
 
 You can find the [source code here](https://github.com/opeik/backdash-store).
