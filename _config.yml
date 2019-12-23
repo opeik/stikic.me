@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Sandro Stikić
 tagline:          'Software developer'
-description:      'Software developer and fighting game enthusiest.'
+description:      'Software developer and fighting game enthusiest'
 url:              https://stikic.me
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
