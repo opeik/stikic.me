@@ -1,8 +1,14 @@
-{% if paginator.previous_page %}
 <div class="pagination">
-  <a class="pagination-item newer"
-     href="{{ paginator.previous_page_path | relative_url }}">
-    Newer
-  </a>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">« Previous</a>
+  {% else %}
+    « Previous
+  {% endif %}
+  — Page {{ paginator.page }} of {{ paginator.total_pages }} —
+
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path | relative_url }}">Next »</a>
+  {% else %}
+    Next »
+  {% endif %}
 </div>
-{% endif %}
