@@ -2,4 +2,7 @@
 layout: page
 ---
 
-{% include tags-list.html %}
+<h1>Posts Tags</h1>
+{% for tag in page.tags %}
+    <a href="/tag/{{ tag }}">{{ tag }}</a>
+{% endfor %}

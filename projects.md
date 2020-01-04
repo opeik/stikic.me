@@ -34,7 +34,7 @@ sidebar_link: true
           <span class="project-tags">
             {% for tag in post.tags %}
               {% unless tag == "project" %}
-                <a class="post-tag-small" href="{{ tags_page.url }}#{{ tag | slugify }}">
+                <a class="post-tag-small" href="/tag/{{ tag }}">
                 #{{ tag }}
                 </a>
               {% endunless %}
