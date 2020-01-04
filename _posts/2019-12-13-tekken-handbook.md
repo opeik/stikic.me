@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [project, webdev, fgc]
+tags: [project, jekyll, webdev, fgc]
 title: Tekken Handbook
 date: 2019-12-2
 description: Tekken reference for beginners and intermediates.

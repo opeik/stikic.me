@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [project, assignment, c++, gamedev]
+tags: [project, c++, gamedev, assignment]
 title: Akuma Shei
 date: 2019-12-4
 description: Dungeon crawling rougelike.

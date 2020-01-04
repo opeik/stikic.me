@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [project, assignment, webdev]
+tags: [project, php, webdev, assignment]
 title: Backdash Store
 date: 2019-12-3
 description: Dynamic web storefront.

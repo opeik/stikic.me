@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [project, node, webdev, fgc]
+tags: [project, js, nodecg, webdev, fgc]
 title: PIKA Overlay
 date: 2019-12-1
 description: Scoreboard overlay designed for fighting game streams.
