@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://i.imgur.com/2PZ76so.png" alt="tekken-handbook-logo" width="800"></a>
+  <img src="https://i.imgur.com/zDtHVsr.png" alt="tekken-handbook-logo" width="800"></a>
   <br>
     stikic.me
   <br>
