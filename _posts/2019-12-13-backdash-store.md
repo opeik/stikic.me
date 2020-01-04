@@ -4,6 +4,7 @@ tags: [project, assignment, webdev]
 title: Backdash Store
 date: 2019-12-3
 description: Dynamic web storefront.
+hidden: true
 excerpt_separator: <!--more-->
 ---
 

@@ -4,6 +4,7 @@ tags: [project, webdev, fgc]
 title: Tekken Handbook
 date: 2019-12-2
 description: Tekken reference for beginners and intermediates.
+hidden: true
 excerpt_separator: <!--more-->
 ---
 
