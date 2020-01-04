@@ -25,7 +25,7 @@ sidebar_link: true
 <div class="projects">
   {% assign tag = "project" %}
   <div id="{{ tag | slugify }}" class="project">
-    <ul>
+    <ul class="no-padding">
       {% for post in site.tags[tag] %}
         <li>
           <span class="project-post">
