@@ -36,4 +36,5 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 
-exclude: ['themes', 'banners', 'README.md', 'LICENSE.md', 'Gemfile', 'Gemfile.lock', 'jekyll-theme-hydeout.gemspec']
+exclude: ['themes', 'banners', 'README.md', 'LICENSE.md', 'Gemfile',
+          'Gemfile.lock', 'jekyll-theme-hydeout.gemspec', "Résumé.pdf"]

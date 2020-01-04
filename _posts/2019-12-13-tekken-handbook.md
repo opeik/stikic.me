@@ -1,9 +1,10 @@
 ---
 layout: post
-category: Projects
+tags: [project, webdev, fgc]
 title: Tekken Handbook
 date: 2019-12-2
-excerpt_separator:  <!--more-->
+description: Tekken reference for beginners and intermediates.
+excerpt_separator: <!--more-->
 ---
 
 ![Banner](https://i.imgur.com/6npK200.jpg)

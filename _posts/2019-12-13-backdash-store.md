@@ -1,9 +1,10 @@
 ---
 layout: post
-category: Projects
+tags: [project, assignment, webdev]
 title: Backdash Store
 date: 2019-12-3
-excerpt_separator:  <!--more-->
+description: Dynamic web storefront.
+excerpt_separator: <!--more-->
 ---
 
 ![Banner](https://i.imgur.com/8dUxa2l.jpg)

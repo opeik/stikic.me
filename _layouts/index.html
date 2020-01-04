@@ -8,7 +8,7 @@ layout: default
   {{ content }}
 
   {% for post in paginator.posts %}
-    {% if post.category != "Projects" %}
+    {% unless post.tags contains "project" %}
     <article class="post-body">
       <h2 class="post-title">
         <a href="{{ post.url | relative_url }}">
@@ -33,11 +33,11 @@ layout: default
         {% endcapture %}
 
         {% if content_words != excerpt_words %}
-          <a href="{{ post.url | relative_url }}">More&hellip;</a>
+          <a href="{{ post.url | relative_url }}">More &hellip;</a>
         {% endif %}
       {% endif %}
     </article>
-    {% endif %}
+    {% endunless %}
   {% endfor %}
 
   {% include pagination-older.html %}

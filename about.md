@@ -10,9 +10,5 @@ avid supporter of open-source software. Generally, I release my projects under
 the ISC license. Even this site, which is
 [available on GitHub](https://github.com/opeik/stikic.me)!
 
-I’ve worked with a wide range of stacks, both native and web, as well as front
-and back end. I’m always looking to expand my knowledge and skillset
-by learning about new and old technologies.
-
 You can contact me at [sandro@stikic.me](mailto:sandro@stikic.me) or
 [@iamopeik](https://twitter.com/iamopeik).
