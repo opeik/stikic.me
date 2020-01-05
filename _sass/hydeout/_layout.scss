@@ -110,7 +110,9 @@ body {
 ----------------------------------------------------------- */
 
 .home #sidebar {
-
+  .site-title {
+    margin-bottom: 0.5rem;
+  }
   // Center sidebar content
   text-align: center;
 
