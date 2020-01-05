@@ -32,7 +32,8 @@ sidebar_link: true
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>: {{ post.description }}
           </span>
           <span class="project-tags">
-            {% for tag in post.tags %}
+            {% assign sorted_tags = post.tags | sort %}
+            {% for tag in sorted_tags %}
               {% unless tag == "project" %}
                 <a class="post-tag-small" href="/tag/{{ tag | slugify }}">
                 #{{ tag }}

@@ -1,5 +1,7 @@
+{% assign sorted_tags = include.post.tags | sort %}
+
 <div class="post-tags">
-  {% for tag in include.post.tags %}
+  {% for tag in sorted_tags %}
     {% unless tag == "project" %}
       <a class="tag-name" href="/tag/{{ tag | slugify }}">#{{ tag }}</a>
     {% endunless %}
