@@ -18,12 +18,9 @@
   margin-top: $section-spacing;
 }
 
-// Push above header if newer on mobile
 .content .pagination:first-child {
-  //margin-top: -$section-spacing * 2;
-}
+    margin-top: $section-spacing / 2;
 
-.content .pagination:first-child {
     + * {
       padding-top: $section-spacing;
       border-top: 1px solid $border-color;
@@ -34,7 +31,7 @@
 // Undo for larger screens
 @media (min-width: $large-breakpoint) {
   .content .pagination:first-child {
-    margin-top: 0;
+    margin-top: $section-spacing / 2;
 
     + * {
       padding-top: $section-spacing;
