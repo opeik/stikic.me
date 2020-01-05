@@ -23,6 +23,14 @@
   //margin-top: -$section-spacing * 2;
 }
 
+.content .pagination:first-child {
+    + * {
+      padding-top: $section-spacing;
+      border-top: 1px solid $border-color;
+      margin-top: $section-spacing;
+    }
+}
+
 // Undo for larger screens
 @media (min-width: $large-breakpoint) {
   .content .pagination:first-child {
