@@ -29,6 +29,18 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-tidy
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - tags
+  layout: tag
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 # Sidebar link settings
 sidebar_home_link:  true

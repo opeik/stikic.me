@@ -32,3 +32,4 @@ end
 gem "jekyll-gist"
 gem "jekyll-paginate"
 gem "jekyll-tidy"
+gem "jekyll-archives"
