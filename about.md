@@ -10,5 +10,4 @@ avid supporter of open-source software. Generally, I release my projects under
 the ISC license; even this site, which is
 [available on GitHub](https://github.com/opeik/stikic.me)!
 
-You can contact me at [sandro@stikic.me](mailto:sandro@stikic.me) or
-[@iamopeik](https://twitter.com/iamopeik).
+You can contact me via {% include email.html %} or [Twitter](https://twitter.com/iamopeik).
