@@ -33,7 +33,7 @@ body {
 
 #sidebar {
   flex: 0 0 auto;
-  padding: $section-spacing / 2;
+  padding: $section-spacing;
 
   .site-title {
     font-family: "Abril Fatface", serif;
@@ -72,24 +72,6 @@ body {
     padding-left: 1rem;
 }
 
-// Hide secondary nav content in sidebar
-// Hide lead paragraph in sidebar
-#sidebar {
-  header ~ *, header ~ nav, p.lead {
-    display: none;
-  }
-}
-
-// Make header elements blend into sidebar / background
-.container > header {
-  color: $sidebar-title-color;
-  background: transparent;
-
-  h1, h2 {
-    color: inherit;
-  }
-}
-
 .container {
     background: #fff;
     padding: $section-spacing
@@ -105,11 +87,7 @@ body {
     margin-bottom: 0;
 }
 
-/* -----------------------------------------------------------
-  Mobile view for home page)
------------------------------------------------------------ */
-
-.home #sidebar {
+#sidebar {
   .site-title {
     margin-bottom: 0.5rem;
   }
@@ -118,7 +96,7 @@ body {
 
   // Bigger title
   .site-title {
-    font-size: 3.25rem;
+    font-size: 3rem;
   }
 
   // Show secondary nav content + lead
@@ -129,6 +107,8 @@ body {
   header {
     ~ nav {
       display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
     }
   }
 
@@ -167,7 +147,7 @@ body {
     margin-bottom: 0.5rem;
   }
 
-  #sidebar, .home #sidebar {
+  #sidebar, #sidebar {
     width: $sidebar-width;
     text-align: left;
 
@@ -188,6 +168,8 @@ body {
 
     header ~ nav {
       display: flex;
+      flex-direction: column;
+      justify-content: initial;
     }
   }
 
