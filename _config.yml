@@ -50,4 +50,4 @@ sidebar_home_link:  true
                                 # to enable a separate blog link.
 
 exclude: ['themes', 'banners', 'README.md', 'LICENSE.md', 'Gemfile',
-          'Gemfile.lock', 'jekyll-theme-hydeout.gemspec', "Résumé.pdf"]
+          'Gemfile.lock', 'jekyll-theme-hydeout.gemspec', "résumé.pdf"]
