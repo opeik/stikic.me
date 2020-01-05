@@ -33,7 +33,7 @@ body {
 
 #sidebar {
   flex: 0 0 auto;
-  padding: $section-spacing;
+  padding: $section-spacing / 2;
 
   .site-title {
     font-family: "Abril Fatface", serif;
@@ -61,7 +61,6 @@ body {
 .content {
   background: $body-bg;
   color: $body-color;
-  padding: $section-spacing;
 }
 
 
@@ -85,19 +84,26 @@ body {
 .container > header {
   color: $sidebar-title-color;
   background: transparent;
-  margin: ($heading-spacing - $section-spacing)
-          $section-spacing
-          $section-spacing;
 
   h1, h2 {
     color: inherit;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
   }
 }
 
+.container {
+    background: #fff;
+    padding: $section-spacing
+             $section-spacing
+             0;
+}
+
+.container > header {
+    color: $gray-6;
+}
+
+#sidebar .site-title {
+    margin-bottom: 0;
+}
 
 /* -----------------------------------------------------------
   Mobile view for home page)
@@ -150,6 +156,14 @@ body {
   }
 
   /* Undo mobile CSS */
+
+  #sidebar {
+    padding: $section-spacing;
+  }
+
+  #sidebar .site-title {
+    margin-bottom: 0.5rem;
+  }
 
   #sidebar, .home #sidebar {
     width: $sidebar-width;
