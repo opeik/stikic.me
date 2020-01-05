@@ -192,8 +192,6 @@ body {
       color: $heading-color;
       margin: 0;
       h1, h2 {
-        color: inherit;
-
         &:last-child {
           margin-bottom: $heading-spacing;
         }
@@ -207,6 +205,9 @@ body {
   }
 }
 
+.container > header h1, .container > header h2 {
+    color: inherit;
+}
 
 /* -----------------------------------------------------------
   Sidebar links + nav
