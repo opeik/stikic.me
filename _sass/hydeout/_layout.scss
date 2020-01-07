@@ -69,7 +69,7 @@ body {
 ----------------------------------------------------------- */
 
 #sidebar-nav-links > a {
-    padding: 0 0.25rem;
+    margin: 0 0.25rem;
 }
 
 .project-ul {
@@ -143,7 +143,7 @@ body {
 
   /* Undo mobile CSS */
   #sidebar-nav-links > a {
-      padding: initial;
+      margin: initial;
   }
 
   #sidebar {
