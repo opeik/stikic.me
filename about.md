@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: About Me
+sidebar_sort_order: 2
 sidebar_link: true
 ---
 Hi, I’m a software developer based in Perth, Australia. My interests include

@@ -68,6 +68,10 @@ body {
   Mobile view
 ----------------------------------------------------------- */
 
+#sidebar-nav-links > a {
+    padding: 0 0.25rem;
+}
+
 .project-ul {
     padding-left: 1rem;
 }
@@ -108,7 +112,7 @@ body {
     ~ nav {
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: center;
     }
   }
 
@@ -138,6 +142,9 @@ body {
   }
 
   /* Undo mobile CSS */
+  #sidebar-nav-links > a {
+      padding: initial;
+  }
 
   #sidebar {
     padding: $section-spacing;
