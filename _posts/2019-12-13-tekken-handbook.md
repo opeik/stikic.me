@@ -2,13 +2,13 @@
 layout: post
 tags: [project, jekyll, webdev, fgc]
 title: Tekken Handbook
-date: 2019-12-2
-description: Tekken reference for beginners and intermediates.
+date: 2019-12-2 14:29 +0800
+description: Tekken reference for beginners and intermediates
 hidden: true
 excerpt_separator: <!--more-->
 ---
 
-![Banner](https://i.imgur.com/6npK200.jpg)
+![Banner](/assets/img/tekken-handbook-banner.jpg)
 
 As much as I love Tekken, I found the lack of in-game tutorial very
 frustrating when I was learning. The sheer amount of unexplained

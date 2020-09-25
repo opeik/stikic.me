@@ -22,7 +22,7 @@ $root-line-height: 1.5 !default;
 $body-color: $gray-5 !default;
 $body-muted: $gray-4 !default;
 $body-bg: #fff !default;
-$link-color: $purple !default;
+$link-color: $blue !default;
 $heading-color: $gray-6 !default;
 
 $border-color: $gray-3 !default;
@@ -38,21 +38,19 @@ $large-font-size: 1.25rem !default;
 
 $box-shadow-size: 1px !default;
 $box-shadow-opacity: 0.16 !default;
-$default-box-shadow: $box-shadow-size
-                     $box-shadow-size
-                     $box-shadow-size
-                     rgba(0, 0, 0, $box-shadow-opacity);
+$default-box-shadow: $box-shadow-size $box-shadow-size $box-shadow-size
+  rgba(0, 0, 0, $box-shadow-opacity);
 
 $code-font-family: Menlo, Monaco, "Courier New", monospace !default;
 $code-color: #bf616a !default;
 
 // Hyde theming
-$sidebar-bg-color: $purple !default;
+$sidebar-bg-color: $gray-6 !default;
 $sidebar-fg-color: white !default;
 $sidebar-sticky: true !default;
 $layout-reverse: false !default;
 
 $sidebar-title-color: $sidebar-fg-color !default;
 $sidebar-link-color: $sidebar-fg-color !default;
-$sidebar-text-color: rgba($sidebar-fg-color, 0.70) !default;
+$sidebar-text-color: rgba($sidebar-fg-color, 0.7) !default;
 $sidebar-icon-color: rgba($sidebar-fg-color, 0.85) !default;

@@ -1,27 +1,32 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Setup
-title:            Sandro Stikić
-tagline:          'Software developer'
-description:      'Software developer and fighting game enthusiest'
-url:              https://stikic.me
-baseurl:          '/'
-                  # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+title: Sandro Stikić
+tagline: ""
+description: "A blog about software development and fighting games"
+url: https://stikic.me
+baseurl:
+  "/"
+  # the optional subpath of your site, e.g. "/blog"
+  # NB: This applies to all pages in your Jekyll site.
+  # If you want to move just the blog index pages but keep
+  # other pages at root, see the paginate_path and
+  # sidebar_blog_link below.
 
 author: iamopeik
 twitter_username: iamopeik
-github_username:  opeik
+github_username: opeik
 timezone: Australia/Perth
 
-paginate:         5
+paginate: 5
 # paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+# Or '/blog/page:num' if you want to move your index pages
 
 plugins:
   - jekyll-feed
@@ -36,18 +41,26 @@ jekyll-archives:
     - tags
   layout: tag
   permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+    year: "/:year/"
+    month: "/:year/:month/"
+    day: "/:year/:month/:day/"
+    tag: "/tag/:name/"
+    category: "/category/:name/"
 
 # Sidebar link settings
-sidebar_home_link:  true
+sidebar_home_link: true
 # sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
+# page. If you change your paginate_path,
+# set this to the root of the paginate_path
+# to enable a separate blog link.
 
-exclude: ['themes', 'banners', 'README.md', 'LICENSE.md', 'Gemfile',
-          'Gemfile.lock', 'jekyll-theme-hydeout.gemspec', "résumé.pdf"]
+exclude:
+  [
+    "themes",
+    "banners",
+    "README.md",
+    "LICENSE.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "résumé.pdf",
+  ]

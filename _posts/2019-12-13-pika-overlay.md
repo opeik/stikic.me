@@ -2,13 +2,13 @@
 layout: post
 tags: [project, js, nodecg, webdev, fgc]
 title: PIKA Overlay
-date: 2019-12-1
-description: Scoreboard overlay designed for fighting game streams.
+date: 2019-12-1 20:12 +0800
+description: Scoreboard overlay designed for fighting game streams
 hidden: true
 excerpt_separator: <!--more-->
 ---
 
-![Banner](https://i.imgur.com/mzXXFM3.jpg)
+![Banner](/assets/img/pika-overlay-banner.jpg)
 
 To grow our local Tekken scene in Perth, I wrote a scoreboard
 overlay for the stream to improve the production value.
