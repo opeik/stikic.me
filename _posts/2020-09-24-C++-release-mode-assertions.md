@@ -9,8 +9,8 @@ hidden: false
 Recently I was optimizing some performance-critical C++ code while trying
 to maintain invariants aggressively. Unfortunately, the standard C++ `assert`
 macro only executes on debug builds, which didn't meet my needs. I decided to
-write my own instead. Unfortunately, since `__FILE__` and `__LINE__` are macros,
-my custom assertion would _also_ have to be a macro.
+write my own instead. While I'd like to avoid macros, since `__FILE__`
+and `__LINE__` are macros; my custom assertion would _also_ have to be a macro.
 
 I ended up with the following:
 
