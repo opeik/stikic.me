@@ -62,5 +62,5 @@ exclude:
     "LICENSE.md",
     "Gemfile",
     "Gemfile.lock",
-    "résumé.pdf",
+    "_hydeout",
   ]

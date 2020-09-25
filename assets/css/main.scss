@@ -3,4 +3,172 @@
 # only main files contain this front matter, not partials.
 ---
 
+$root-font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
+$sidebar-bg-color: #272822 !default;
+$sidebar-fg-color: white !default;
+$sidebar-sticky: true !default;
+$layout-reverse: false !default;
+$link-color: #268bd2 !default;
+
+/*
+ * None of this is pretty, but I'd rather not have to write my own fork of
+ * Hydeout to tweak it.
+ */
+
+body {
+  background-image: none !important;
+}
+
+.post-tag-small {
+  font-size: 75%;
+}
+
+.project-post {
+  display: block;
+}
+
+.project-post,
+.project-tags {
+  display: block;
+}
+
+.project-tags {
+  margin-top: -0.4rem;
+}
+
+.copyright {
+  font-size: 75%;
+}
+
+.post-title a {
+  color: $link-color !important;
+}
+
+#sidebar-nav-links {
+  margin-bottom: 1rem;
+}
+
+h2.post-title,
+h2.page-title {
+  font-size: 1.5rem !important;
+}
+
 @import "hydeout";
+
+#sidebar {
+  padding: $section-spacing / 2 $section-spacing;
+  bottom: default !important;
+  left: default !important;
+  position: default;
+}
+
+@media (max-width: $large-breakpoint) {
+  .container {
+    background: #fff;
+    padding: 2rem 2rem 0;
+  }
+
+  #sidebar header ~ nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #sidebar {
+    flex: 0 0 auto;
+  }
+
+  #sidebar-nav-links > a {
+    margin: 0 0.25rem;
+  }
+
+  .content {
+    padding: 0;
+  }
+
+  .container > header {
+    margin: 0;
+  }
+
+  .content .pagination:first-child + * {
+    padding-top: 2rem;
+    border-top: 1px solid #ccc;
+    margin-top: 2rem;
+  }
+
+  .container > header h1:last-child,
+  .container > header h2:last-child {
+    margin-bottom: 1rem;
+  }
+
+  .page .content li + li {
+    margin-top: 0.5rem;
+  }
+
+  #sidebar header ~ *,
+  #sidebar header ~ nav,
+  #sidebar p.lead {
+    display: default;
+  }
+
+  #sidebar {
+    text-align: center;
+
+    .site-title {
+      font-size: 3.25rem;
+    }
+
+    header ~ *,
+    p.lead {
+      display: block;
+    }
+
+    header ~ nav {
+      display: flex;
+    }
+
+    > *:last-child {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .home.index #sidebar {
+    padding-bottom: 1rem;
+  }
+
+  .home #sidebar .site-title {
+    font-size: 3rem;
+  }
+
+  #sidebar .site-title {
+    font-size: 3rem;
+  }
+
+  .project-ul {
+    padding-left: 1rem;
+  }
+}
+
+.container > header {
+  color: $sidebar-bg-color;
+}
+
+.content .pagination:first-child {
+  margin-top: 1rem;
+}
+
+.post-tags a {
+  margin-right: default;
+  font-size: 1rem;
+}
+
+@media (min-width: $large-breakpoint) {
+  #sidebar header ~ nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #sidebar-nav-links > a {
+    margin: 0 0;
+  }
+}
