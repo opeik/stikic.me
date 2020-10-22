@@ -62,6 +62,14 @@ h2.page-title {
   position: default;
 }
 
+.home.index #sidebar {
+  padding-bottom: $section-spacing;
+}
+
+#sidebar {
+  padding-bottom: $section-spacing;
+}
+
 @media (max-width: $large-breakpoint) {
   .container {
     background: #fff;
